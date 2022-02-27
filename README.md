@@ -1,7 +1,8 @@
 # Multiplication Exercices
-Una pequeña aplicacion de consola realizada en Node para generar ejercicios de multiplicaciones personalizadas.
 
-#Notas
+A console application made in Node.js to generate custom multiplication exercises.
+
+#Notes
 
 Options:
 
@@ -9,10 +10,10 @@ Options:
 
       --version                Show version number                     [boolean]
 
-      --mdor, --multiplicando  el multiplicando de la operacion [number] [required] [default: 4]
+      --mdor, --multiplicando  the multiplicand of the operation [number] [required] [default: 4]
 
-      --mndo, --multiplicador  el multiplicador de la operacion [number] [required] [default: 2]
+      --mndo, --multiplicador  the operation mutiplier [number] [required] [default: 2]
 
-      -c, --cantidad               cantidad de ejercicios [number] [required] [default: 5]
+      -c, --cantidad               number of exercices [number] [required] [default: 5]
 
-      -l, --listar                 muestra la tabla en consola[boolean] [default: false]
+      -l, --listar                 show exercice on console[boolean] [default: false]
