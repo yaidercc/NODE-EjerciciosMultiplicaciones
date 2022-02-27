@@ -1,0 +1,15 @@
+{
+  "name": "aplicacion",
+  "version": "0.0.1",
+  "description": "aplicacion para generar multiplicaciones",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yaider cordoba",
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.0.1"
+  }
+}
