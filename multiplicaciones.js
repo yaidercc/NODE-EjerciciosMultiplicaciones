@@ -59,7 +59,10 @@ const generarEjercicios = async (
         Math.random() * (limiteSupDown - limiteInfDown) + limiteInfDown
       )}=\n\n`;
     }
-    fs.writeFileSync(`salida/ejericios-${numero}.txt`, salida);
+    if (!fs.existsSync("./operaciones")) {
+      fs.mkdirSync('./operaciones/',{recursive:true});
+    }
+    fs.writeFileSync(`operaciones/ejericios-${numero}.txt`, salida);
     if (listar) {
       console.log("********** Operaciones ***********");
       console.log(salida);
